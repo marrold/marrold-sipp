@@ -6,6 +6,8 @@ marrold-sipp is a basic docker image containing the [SIPp](https://github.com/SI
 
 The image is based on [debian:buster-slim](https://hub.docker.com/_/debian) and the current SIPp version is 3.6.1. SIPp has been compiled with all features, i.e with GSL, PCAP, SSL and SCTP support.
 
+The image is currently only available for the `amd64` architecture.
+
 ## Example Usage
 
 The intended usage is to mount a directory of SIPp scenarios (XML Files) and then execute a bash shell to run your tests:
