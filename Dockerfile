@@ -1,7 +1,7 @@
+FROM debian:buster-slim
 
 LABEL maintainer="docker@marrold.co.uk"
 
-FROM debian:buster-slim
 RUN apt-get update  && \
     apt-get upgrade -y && \
     apt-get install -y wget libssl-dev libncurses5-dev libsctp-dev libpcap-dev && \
